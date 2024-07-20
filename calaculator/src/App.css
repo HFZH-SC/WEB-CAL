@@ -1,0 +1,60 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #333; /* Warna latar belakang halaman */
+  color: #fff; /* Warna teks */
+}
+
+.calculator {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #000;
+  text-align: center;
+  background-color: #222; /* Warna latar belakang kalkulator */
+  border-radius: 10px; /* Sudut membulat */
+}
+
+.calculator h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.calculator label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.calculator input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  background-color: #444; /* Warna latar belakang input */
+  border: 1px solid #555; /* Warna border input */
+  color: #fff; /* Warna teks input */
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons button {
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  color: #000; /* Warna teks tombol */
+}
+
+.buttons button:hover {
+  background-color: #f5c6cb;
+}
+
+.result {
+  margin-top: 20px;
+}
